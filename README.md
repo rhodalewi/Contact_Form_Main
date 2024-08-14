@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop & Mobile Design](./design/Desktop&mobile.png)
-![All States](./design/All-States.png)
+![Desktop & Mobile Design](./design/Desktop&Mobile.jpg)
+![All States](./design/All%20States.jpg)
 
 ### Links
 
