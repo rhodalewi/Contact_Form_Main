@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+  <title>Contact form</title>
+</head>
+<body>
+  <!-- SUCCESS STATE -->
+  <div id="successContainer">
+    <div class="successMessage">
+      <img src="./assets/images/icon-success-check.svg" alt="images">
+      <p>Message Sent!</p>
+    </div>
+    <p class="successContainer-p">Thanks for completing the form. We'll be in touch soon!</p>
+  </div>
+
+  <!-- MAIN PAGE -->
+  <div id="container">
+    <h2>Contact Us</h2>
+    <form id="myForm">
+      <!-- NAMES -->
+      <div class="names">
+        <div>
+          <div class="fName">
+            <label for="firstName">First Name <span>*</span></label>
+            <input type="text" id="firstName">
+          </div>
+            <p class="errorMessage">This field is required</p>
+        </div>
+
+        <div class="lName">
+            <label for="lastName">Last Name <span>*</span></label>
+            <input type="text" id="lastName">
+            <p class="errorMessage lastErrorMsg">This field is required</p>
+        </div>
+      </div>
+
+      <!-- EMAIL -->
+        <div class="email">
+          <label for="email">Email Address <span>*</span></label>
+          <input type="text" id="email" class="emailInput">
+          <p class="errorMessage emailErrorMsg">Please enter a valid email address</p>
+          <p class="emailErrorMsg2">This field is required</p>
+        </div>
+
+        <!-- QUERIES TYPES -->
+        <div class="queries">
+          <label>Query Type <span>*</span></label>
+
+          <div class="queryType">
+            <div class="allQueries generalQuery">
+              <input type="radio" name="queryType" class="query generalOption" value="general">
+              <p>General Enquiry</p>
+            </div>
+
+            <div class="allQueries supportQuery">
+              <input type="radio" name="queryType" class="query supportOption" value="support">
+              <p>Support Request</p>
+            </div>
+          </div>
+          <p class="errorMessage queryErrorMsg">Please select a query type</p>
+        </div>
+        
+        <!-- MESSAGE -->
+        <div class="messageContainer">
+          <label for="message">Message <span>*</span></label>
+          <textarea name="text" id="message"></textarea>
+          <p class="errorMessage msgErrorMsg">This field is required</p>
+        </div>
+
+      <!-- CONSENT -->
+        <div class="consent">
+          <div class="consents">
+            <input type="checkbox" name="consent" id="consent">
+            <p>I consent to being contacted by the team </p>
+          </div>
+          <p class="errorMessage consentErrorMsg">To submit this form, please consent to being contacted</p>
+        </div>
+      
+        <!-- BUTTON -->
+      <button type="submit" id="btn">Submit</button>
+    </form>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
