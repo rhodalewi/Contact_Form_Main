@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://rhodalewi.github.io/Contact_Form_Main/)
+- Live Site URL: (https://github.com/rhodalewi/Contact_Form_Main)
 
 ## My process
 
@@ -49,7 +49,7 @@ Users should be able to:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/rhodalewi/Contact_Form_Main/tree/main
+    git clone https://github.com/rhodalewi/Contact_Form_Main.git
     ```
 2. Navigate to the project directory:
     ```sh
