@@ -1,4 +1,4 @@
-# Frontend Mentor - Contact form solution
+# Contact form
   ## Overview
     This document provides detailed information about the Contact Page, including its design for both desktop and mobile, as well as the states (focus, hover, active, error) and functionalities.
 
